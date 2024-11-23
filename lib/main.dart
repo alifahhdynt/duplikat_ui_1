@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
           title: const Text('Item Service Coffee'),
         ),
         body: ListView(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(16), // Padding di sekitar konten
+          // Container utama dengan desain melengkung
           children: [
             Container(
               padding: const EdgeInsets.fromLTRB(40, 30, 40, 60),
